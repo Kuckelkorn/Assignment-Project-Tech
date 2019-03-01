@@ -1,0 +1,22 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "Make a dating website for project tech",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kuckelkorn/Assignment-Project-Tech.git"
+  },
+  "author": "Kuckelkorn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kuckelkorn/Assignment-Project-Tech/issues"
+  },
+  "homepage": "https://github.com/Kuckelkorn/Assignment-Project-Tech#readme",
+  "dependencies": {
+    "camelcase": "^5.0.0"
+  }
+}
