@@ -7,7 +7,6 @@ For the tech project, the assignment is to make a dating website and instead of 
 ## Running the app
 
 ###Installation
-
 #### 1. Clone the repository
 The repository can be cloned by running `git clone` in the command line.
 ```
