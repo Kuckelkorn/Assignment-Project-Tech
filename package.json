@@ -4,7 +4,8 @@
   "description": "Make a dating website for project tech",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -17,8 +18,8 @@
   },
   "homepage": "https://github.com/Kuckelkorn/Assignment-Project-Tech#readme",
   "dependencies": {
-    "camelcase": "^5.0.0",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2"
   },
   "devDependencies": {
     "nodemon": "^1.18.10"
