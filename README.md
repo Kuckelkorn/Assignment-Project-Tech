@@ -32,3 +32,5 @@ Start the server with `npm run start`, you can view it by going to `localhost:80
 The packages being used in this project are
 * [express](https://www.npmjs.com/package/express)
 * [pug](https://www.npmjs.com/package/pug)
+* [slug](https://www.npmjs.com/package/slug)
+* [body-parser](https://www.npmjs.com/package/body-parser)
