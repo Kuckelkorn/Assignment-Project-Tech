@@ -2,7 +2,9 @@
 Make a dating website for project tech CMD Amsterdam
 
 ## Summary
-For the tech project, the assignment is to make a dating website and instead of just using front-end, we have to make the site actually work with back-end. We're using node.js for that.
+For the tech project, the assignment is to make a dating website and instead of
+just using front-end, we have to make the site actually work with back-end.
+We're using node.js for that.
 
 ## Running the app
 
