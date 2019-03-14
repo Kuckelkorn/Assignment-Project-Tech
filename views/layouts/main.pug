@@ -3,12 +3,12 @@ html
   head
     title #{title}
     link(rel='stylesheet', href='../../static/styles/style.css', type='text/css')
+    block stylesheet
   body
+    h1 #{title}
     block header
-      h1 #{title}
-    block content
-      
+    block content  
     block footer
-      p  Remco Kuckelkorn &copy; 2019
+    p  Remco Kuckelkorn &copy; 2019
       
     

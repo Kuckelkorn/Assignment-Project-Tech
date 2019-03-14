@@ -15,6 +15,10 @@ app.get('/about', (req, res) => {
   res.render('about', { title: 'About' })
 })
 
+app.get('/add', (req, res) => {
+  res.render('add', { title: 'Add Info' })
+})
+
 app.use((req, res) => {
   res.render('404', { title: '404 Page not found' })
 })

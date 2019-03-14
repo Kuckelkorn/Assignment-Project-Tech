@@ -1,0 +1,18 @@
+extends layouts/main.pug
+
+block stylesheet
+  link(rel='stylesheet', href='../../static/styles/add.css', type='text/css')
+block header
+  p Add your personal information
+  
+block content
+  form(action='/' method='POST' enctype='multipart/form-data')
+    label Name
+      input(name='name')
+    br  
+    label Surname
+      input(name='surname')
+    br    
+    label 
+      input(name='cover' type='file' accept='image/*')
+  
