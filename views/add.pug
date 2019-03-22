@@ -1,18 +1,24 @@
 extends layouts/main.pug
 
 block stylesheet
-  link(rel='stylesheet', href='../../static/styles/add.css', type='text/css')
+  link(rel='stylesheet', href='../../static/styles/form.css', type='text/css')
 block header
   p Add your personal information
   
 block content
   form(action='/' method='POST' enctype='multipart/form-data')
-    label Name
-      input(name='name')
+    label Firstname
+      input(name='fName')
     br  
     label Surname
-      input(name='surname')
+      input(name='sName')
     br    
-    label 
-      input(name='cover' type='file' accept='image/*')
+    label Birthday
+      input(type='number' name='bday-day' min='1' max='31')
+      input(type='number' name='bday-month' min='1' max='12')
+      input(type='number' name='bday-year' min='1900' max='2019')
+    br
+    label Add Member
+      button Add
+        
   

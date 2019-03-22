@@ -1,0 +1,10 @@
+label, input, button {
+  margin: 1em 0
+}
+
+button, input {
+  border-radius: 0.25em;
+  border-width: 0;
+  font-size: 1em;
+  padding: 0.5em;
+}
