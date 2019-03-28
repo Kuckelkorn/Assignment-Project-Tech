@@ -27,3 +27,10 @@ Start the server with `npm run start`, you can view it by going to `localhost:33
 1. npm run start
 2. open your browser of choice and go to localhost:3300
 ```
+
+### Resources used
+Making this assignment, I watched the playlist [Node.js & Express From Scratch](https://www.youtube.com/playlist?list=PLillGF-RfqbYRpji8t4SxUkMxfowG4Kqp) from traversy media. It mostly helped with setting up the database, using mongoose and the basics with the pug templating engine.
+
+Besides using that playlist I also made use of the examples in the [project tech back-end gtihub](https://github.com/cmda-bt/be-course-18-19/tree/master/examples). This was a great way to have another look at the codes from the course within my own tempo.
+
+I also used the documentation of the different packages, but it didn't always help because some packages have a lot of different middleware and it is very easy to lose track of what to use, at least that is how I experienced it. 
