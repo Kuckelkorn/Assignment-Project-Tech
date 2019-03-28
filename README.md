@@ -24,11 +24,11 @@ npm install
 In order to setup your database connection first you need to make a `.env` file
 in that file you paste the following code if you're using mongodb atlas paste
 your info instead of the standard `<username>` , `<password>`, `<dbname>`
- 
+
 ```
 DB_URI= mongodb+srv://<username>:<password>@cluster0-ea6cu.azure.mongodb.net/<dbname>?retryWrites=true
 ```
-If you're using a different service look at their documentation about setting up the connection to your database and paste it behind
+If you're using a different service look at their documentation about setting up the connection to your database and paste it behind `DB_URI=`
 
 ```
  DB_URI= // url/uri here
