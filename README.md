@@ -22,15 +22,8 @@ npm install
 ```
 
 ### Running and viewing the application
-Start the server with `npm run start`, you can view it by going to `localhost:8000`.
+Start the server with `npm run start`, you can view it by going to `localhost:3300`.
 ```
 1. npm run start
 2. open your browser of choice and go to localhost:3300
 ```
-
-## Packages
-The packages being used in this project are
-* [express](https://www.npmjs.com/package/express)
-* [pug](https://www.npmjs.com/package/pug)
-* [slug](https://www.npmjs.com/package/slug)
-* [body-parser](https://www.npmjs.com/package/body-parser)

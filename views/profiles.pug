@@ -1,0 +1,9 @@
+extends layouts/main.pug
+
+block content
+  main
+    h2 All members
+    each profile in profileList
+      p.persons
+        a(href='/' + profile._id)= profile.firstname + ' ' + profile.lastname
+  

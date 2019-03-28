@@ -1,0 +1,33 @@
+extends layouts/main.pug
+
+block stylesheet
+  link(rel='stylesheet', href='../../static/styles/form.css', type='text/css')
+block header
+  h2 Update your profile
+  
+block content
+  main.updateProfile
+    h3 Fill in your information
+    form(action='/edit/' + profile._id method='POST')
+      p
+        label Firstname
+          input(type='text' name='fName' value=profile.firstname)
+      p
+        label Lastname
+          input(type='text' name='lName' value=profile.lastname)
+      p
+        label email
+          input(type='text' name='email' value=profile.email)
+      p
+        label language
+          input(type='text' name='language' value=profile.language)
+      p
+        label favourite show
+          input(type='text' name='show' value=profile.show)
+      p
+        label favourite activity
+          input(type='text' name='activity' value=profile.activity)
+      p
+        button(name='create') Update profile
+      
+  

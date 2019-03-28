@@ -1,0 +1,27 @@
+extends layouts/main.pug
+
+block stylesheet
+  link(rel='stylesheet', href='../../static/styles/form.css', type='text/css')
+block header
+  h2 Register for an account
+  
+block content
+  main.register
+    h3 Fill in your information
+    form(action='/signup' method='POST')
+      p
+        label Firstname
+          input(type='text' name='fName')
+      p
+        label Lastname
+          input(type='text' name='lName')
+      p
+        label email
+          input(type='text' name='email')
+      p
+        label password
+          input(type='password' name='password')
+      p
+        button(name='register') Register
+      
+  

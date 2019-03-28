@@ -1,11 +1,12 @@
 body {
-  background-image: linear-gradient(-90deg, green, teal);
   box-sizing: border-box;
   font-family: 'Archivo', sans-serif;
 }
 
 .persons {
+background: #aaa;
   margin-bottom: 1em;
   margin-top: 1em;
   padding: 1em;
+
 }
