@@ -46,7 +46,7 @@ If you're using a different service look at their documentation about setting up
 Start the server with `npm run nmStart`, you can view it by going to `localhost:5000`.
 ```
 1. npm run nmStart
-2. open your browser of choice and go to localhost:3300
+2. open your browser of choice and go to localhost:5000
 ```
 
 ### Resources used
