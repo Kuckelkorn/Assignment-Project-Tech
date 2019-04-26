@@ -39,9 +39,13 @@ MONGO_DB= mongodb+srv://<username>:<password>@cluster0-ea6cu.azure.mongodb.net/<
 ```
 If you're using a different service look at their documentation about setting up the connection to your database and paste it behind `MONGO_DB=`
 
+#### 4. Setup express sessions
+In order to make sessions work you have to put in the .env file a string consisting of random characters to make it really hard for hackers to guess your secret and accesing your cookies and retrieve potentially sensitive information about your users
+
 ```
- MONGO_DB= // url/uri here
+SESSION_SECRET= 'your string'
 ```
+
 ### Running and viewing the application
 Start the server with `npm run nmStart`, you can view it by going to `localhost:5000`.
 ```
