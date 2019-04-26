@@ -6,12 +6,14 @@ Welcome to Ez Date, this is a dating site that makes finding a match as easy as 
 Current functionalities include making an account and viewing other members.
 
 ### Screenshots of the app
-Home
-[Homescreen](https://github.com/Kuckelkorn/Assignment-Project-Tech/wiki/assets/home.png)
-Members
-[Members screen](https://github.com/Kuckelkorn/Assignment-Project-Tech/wiki/assets/members.png)
-Registering
-[Registering screen](https://github.com/Kuckelkorn/Assignment-Project-Tech/wiki/assets/register.png)
+#### Home
+![Homescreen](https://github.com/Kuckelkorn/Assignment-Project-Tech/wiki/assets/home.png)
+
+#### Members
+![Members screen](https://github.com/Kuckelkorn/Assignment-Project-Tech/wiki/assets/members.png)
+
+#### Registering
+![Registering screen](https://github.com/Kuckelkorn/Assignment-Project-Tech/wiki/assets/register.png)
 
 ## Running the app
 
