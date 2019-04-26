@@ -18,14 +18,10 @@ async function membersPage(req, res, next) {
 }
 
 async function addMember(req, res, next) {
-	const memberInfo = req.body;
+	const memberInfo = req.body
 	try {
-		let member = await memberUtil.create(memberInfo);
-		req.session.user = {
-			email: member.email,
-			id: member._id
-		};
-		res.redirect('/');
+		let member = await memberUtil.create(memberInfo)
+		res.redirect('/member');
 	} catch (err) {
 		next(err);
 	}

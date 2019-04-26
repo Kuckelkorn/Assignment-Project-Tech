@@ -20,6 +20,7 @@ app
 	.set('views', './server/views')
 	.get('/', ageCheck)
 	.use('/member', add)
+	.use(errorHandling)
 	.listen(process.env.PORT || 5000)
 
 function ageCheck(req, res){
@@ -29,4 +30,8 @@ function ageCheck(req, res){
 	} else {
 		res.render('index')
 	}
+}
+
+function errorHandling (req, res){
+	res.status('404').render('error-page')
 }
