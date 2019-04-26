@@ -1,16 +1,19 @@
 # Ez Date
+Dating made as easy as squeezing a lemon
 
 ## Summary
 Welcome to Ez Date, this is a dating site that makes finding a match as easy as squeezing a lemon ( easy peasy lemon squeezy)
 Current functionalities include making an account and viewing other members.
 
 ### Screenshots of the app
-Home
-[Homescreen](https://github.com/Kuckelkorn/Assignment-Project-Tech/wiki/assets/home.png)
-Members
-[Members screen](https://github.com/Kuckelkorn/Assignment-Project-Tech/wiki/assets/members.png)
-Registering
-[Registering screen](https://github.com/Kuckelkorn/Assignment-Project-Tech/wiki/assets/register.png)
+#### Home
+![Homescreen](https://github.com/Kuckelkorn/Assignment-Project-Tech/wiki/assets/home.png)
+
+#### Members
+![Members screen](https://github.com/Kuckelkorn/Assignment-Project-Tech/wiki/assets/members.png)
+
+#### Registering
+![Registering screen](https://github.com/Kuckelkorn/Assignment-Project-Tech/wiki/assets/register.png)
 
 ## Running the app
 
@@ -43,7 +46,7 @@ If you're using a different service look at their documentation about setting up
 Start the server with `npm run nmStart`, you can view it by going to `localhost:5000`.
 ```
 1. npm run nmStart
-2. open your browser of choice and go to localhost:3300
+2. open your browser of choice and go to localhost:5000
 ```
 
 ### Resources used
