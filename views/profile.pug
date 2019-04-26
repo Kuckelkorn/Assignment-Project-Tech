@@ -1,9 +1,0 @@
-extends layouts/main.pug
-
-block content
-  h2= profile.firstname + ' ' + profile.lastname
-  p= profile.language
-  p= profile.activity
-  p= profile.show
-  button
-    a(href='/edit/' + profile._id) Edit your profile
