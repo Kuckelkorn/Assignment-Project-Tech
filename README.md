@@ -1,5 +1,5 @@
-# Assignment-Project-Tech
-Make a dating site
+# Ez Date
+Dating made as easy as squeezing a lemon
 
 ## Summary
 Welcome to Ez Date, this is a dating site that makes finding a match as easy as squeezing a lemon ( easy peasy lemon squeezy)
