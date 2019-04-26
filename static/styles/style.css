@@ -1,12 +1,111 @@
 body {
-  box-sizing: border-box;
-  font-family: 'Archivo', sans-serif;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Archivo', sans-serif;
+	margin: 0;
+	min-height: 100vh;
 }
 
-.persons {
-background: #aaa;
-  margin-bottom: 1em;
-  margin-top: 1em;
-  padding: 1em;
+header {
+	background:
+		/* gradient can be an image */
+		linear-gradient(#FFD672 0,
+		#FFD672 30%,
+		#000000 30%,
+		#000000 35%,
+		#FF2745 35%,
+		#FF2745 65%,
+		#000000 65%,
+		#000000 70%,
+		#0AAD8A 70%,
+		#0AAD8A 100%) left bottom #fff no-repeat;
+	background-size: 100% 40px;
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 40px;
+}
 
+main{
+	background: grey;
+	flex:1;
+}
+
+.wapen {
+	align-self: center;
+	height: auto;
+	margin: 30px;
+	margin-left: 60px;
+	width: 20%;
+	max-width: 100px;
+}
+
+header nav ul {
+	display: flex;
+	list-style: none;
+	margin: 2;
+	padding: 0;
+}
+.wrapper{
+	height: auto;
+	width:100%;
+}
+
+.info{
+	padding: 0 5em 2.5em;
+}
+.bestuur h2{
+	padding: 0 5em;
+	display: flex;
+	justify-content: space-around;
+}
+
+.bestuur ul{
+	padding: 0 5em;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+
+.add {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	padding: 1em 5em;
+}
+
+input {
+	width: 100%;
+}
+
+fieldset{
+	border: none;
+}
+
+footer {
+	background:
+		/* gradient can be an image */
+		linear-gradient(#FFD672 0,
+		#FFD672 30%,
+		#000000 30%,
+		#000000 35%,
+		#FF2745 35%,
+		#FF2745 65%,
+		#000000 65%,
+		#000000 70%,
+		#0AAD8A 70%,
+		#0AAD8A 100%) left top #fff no-repeat;
+	background-size: 100% 40px;
+	bottom: 0;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 40px;
+	margin:0;
+}
+
+.member{
+	background: white;
+	margin: 10px;
+	padding: 1em;
+	border: solid 0;
+	border-radius: 20px 50px;
 }

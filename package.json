@@ -1,34 +1,29 @@
 {
-  "name": "package",
+  "name": "hetwgtao.nl",
   "version": "1.0.0",
-  "description": "Make a dating website for project tech",
-  "main": "index.js",
+  "description": "Het W.G. Tao website",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server/server.js"
+    "nmStart": "nodemon server/server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kuckelkorn/Assignment-Project-Tech.git"
+    "url": "git+https://github.com/Kuckelkorn/hetwgtao.nl.git"
   },
-  "author": "Kuckelkorn",
+  "author": "Remco Kuckelkorn",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Kuckelkorn/Assignment-Project-Tech/issues"
+    "url": "https://github.com/Kuckelkorn/hetwgtao.nl/issues"
   },
-  "homepage": "https://github.com/Kuckelkorn/Assignment-Project-Tech#readme",
+  "homepage": "https://github.com/Kuckelkorn/hetwgtao.nl#readme",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
+    "argon2": "^0.21.0",
     "body-parser": "^1.18.3",
     "dotenv": "^7.0.0",
     "express": "^4.16.4",
-    "express-session": "^1.15.6",
-    "mongoose": "^5.4.20",
-    "passport": "^0.4.0",
-    "passport-local": "^1.0.0",
+    "express-session": "^1.16.1",
+    "mongoose": "^5.5.2",
     "pug": "^2.0.3"
-  },
-  "devDependencies": {
-    "nodemon": "^1.18.10"
   }
 }

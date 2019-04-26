@@ -1,0 +1,66 @@
+extends layouts/main.pug
+
+block content
+	form.add(action='/member/add' method='post')
+		fieldset
+			legend Naam
+			label(for='initials') Voorletters
+			input(type='text' name='initials' accept='text')
+			label(for='insertions') Tussenvoegsel
+			input(type='text' name='insertions' accept='text')
+			label(for='lastname') Achternaam
+			input(required type='text' name='lastname' accept='text')
+			label(for='firstname') Voornaam
+			input(required type='text' name='firstname' accept='text')
+			label(for='password') Wachtwoord
+			input(required type='password' name='password' accept='text')
+				
+		fieldset
+			legend Info
+			label(for='birthdate') Geboorte datum
+			input(type='date' name='birthdate' accept='date')
+			label(for='study') Studie
+			input(type='text' name='study')
+			label(required for='email') emailadres
+			input(type='email' name='email' accept='email')
+			label(for='phonenumber') Mobiel nummer
+			input(type='tel' minlength='10' name='phonenumber')
+			label(for='year') Lichting
+			input(required type='number' min='1965' name='year')
+				
+		fieldset
+			legend Adres
+			label(for='adressCurrent') Straatnaam en huisnummer
+			input(type='text' name='adressCurrent')
+			label(for='postalCodeCurrent') Postcode
+			input(type='text' name='postalCodeCurrent')
+			label(for='cityCurrent') Stad
+			input(type='text' name='cityCurrent')
+				
+		fieldset
+			legend Ouderlijk adres
+			label(for='adressParents') Straatnaam en huisnummer ouders
+			input(type='text' name='adressParents')
+			label(for='postalCodeParents') Postcode ouders
+			input(type='text' name='postalCodeParents')
+			label(for='cityParents') Stad ouders
+			input(type='text' name='cityParents')
+			label(for='numberParents') Mobiel nummer ouders
+			input(type='tel' minlength='10' name='numberParents')
+	
+		fieldset
+			legend Familie
+			label(for='father') Vader
+			input(type='text' name='father')
+			label(for='son') Zoon
+			input(type='text' name='son')
+		button(type='submit') Voeg lid toe
+		
+		
+		
+			
+			
+			
+			
+				
+		

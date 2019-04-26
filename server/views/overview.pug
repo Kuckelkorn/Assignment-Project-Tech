@@ -1,0 +1,9 @@
+extends layouts/main.pug
+
+block content
+	for item in members
+		section.member
+			p=item.initials + '. (' + (item.firstname) + ') ' + item.lastname
+			p=item.year
+			p=item.study
+			
