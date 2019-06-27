@@ -3,9 +3,10 @@ const mongoose = require('mongoose')
 const memberSchema = new mongoose.Schema({
 	lastname: String,
 	firstname: String,
-	birthdate: Date,
+	birthdate: String,
 	email: String,
-	hash: String
+	hash: String,
+	language: String
 })
 
 const Member = mongoose.model('Member', memberSchema)

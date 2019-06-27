@@ -9,28 +9,30 @@ exports.create = function (memberInfo) {
 			firstname,
 			birthdate,
 			email,
-			password
-		} = memberInfo // object destructuring
+			password,
+			language
+		} = memberInfo
 
 		mongoose.connect(process.env.MONGO_DB, {
 			dbName: 'EzDate',
 			useNewUrlParser: true
-		}) // make a connection to the database
+		})
 
-		const db = mongoose.connection // defines the connection
+		const db = mongoose.connection
 
-		db.on('error', (err) => reject(err)) // on event emitter error, reject and send the error back
+		db.on('error', (err) => reject(err))
 		db.once('open', async function () {
 			let newMember = new Member({
 				lastname: lastname,
 				firstname: firstname,
 				birthdate: birthdate,
 				email: email,
-				hash: await argon2.hash(password)
-			}) // once database is open(open is event emitter) create a user with the values from the form
-			newMember.save(function (err, member) { // save the user and use the callback if done
-				if (err) reject(err) // if there is an error reject the promise and send the error back
-				else resolve(member) // if there is not an error resolve the promise
+				hash: await argon2.hash(password),
+				language: language
+			})
+			newMember.save(function (err, member) {
+				if (err) reject(err)
+				else resolve(member)
 			})
 		})
 	})

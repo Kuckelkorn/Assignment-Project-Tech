@@ -9,11 +9,25 @@ router
 	.get('/', membersPage)
 	.get('/add', (req, res) => res.render('register'))
 	.post('/add', addMember)
+	.get('/:id', showIndividual)
 
 async function membersPage (req, res, next) {
 	let members = await findMembers()
 	res.render(('overview'), {
 		members
+	})
+}
+
+function showIndividual (req, res, next) {
+	const id = req.params.id
+	Member.findById(id, (err, member) => {
+		if (err) {
+			throw err
+		} else {
+			res.render('individual', {
+				member: member
+			})
+		}
 	})
 }
 

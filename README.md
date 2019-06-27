@@ -2,7 +2,7 @@
 Dating made as easy as squeezing a lemon
 
 ## Summary
-Welcome to Ez Date, this is a dating site that makes finding a match as easy as squeezing a lemon ( easy peasy lemon squeezy)
+Welcome to Ez Date, this is a dating site that makes finding a match as easy as squeezing a lemon ( easy peesy lemon squeezy)
 Current functionalities include making an account and viewing other members.
 
 ### Screenshots of the app

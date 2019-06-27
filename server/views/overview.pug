@@ -3,6 +3,7 @@ extends layouts/main.pug
 block content
 	for item in members
 		section.member
-			p=item.firstname + ' ' + item.lastname
+			a(href='/member/' + item._id)=item.firstname + ' ' + item.lastname
 			p=item.birthdate
+			p=item.language
 			

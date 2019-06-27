@@ -1,7 +1,7 @@
 {
-  "name": "hetwgtao.nl",
+  "name": "EZ-date.com",
   "version": "1.0.0",
-  "description": "Het W.G. Tao website",
+  "description": "Easy dating",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kuckelkorn/hetwgtao.nl.git"
+    "url": "git+https://github.com/Kuckelkorn/Assignment-Project-Tech.git"
   },
   "author": "Remco Kuckelkorn",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Kuckelkorn/hetwgtao.nl/issues"
+    "url": "https://github.com/Kuckelkorn/Assignment-Project-Tech/issues"
   },
-  "homepage": "https://github.com/Kuckelkorn/hetwgtao.nl#readme",
+  "homepage": "https://github.com/Kuckelkorn/Assignment-Project-Tech#readme",
   "dependencies": {
     "argon2": "^0.21.0",
     "body-parser": "^1.18.3",
